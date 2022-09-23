@@ -68,13 +68,10 @@ p{
     width: 20%;
     transform: rotate(25deg);
     position: absolute;
-    z-index: 0;
     right: 20%;
-
 }
 
 /* feature image */
-
 #features{
     background-color: white;
     padding: 7% 15%;
@@ -131,4 +128,44 @@ p{
 .pricing-column{
     padding: 3% 2%;
 
+}
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+
+}
+
+/* Footer section */
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+/* media */
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+    
 }
