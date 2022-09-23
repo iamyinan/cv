@@ -1,39 +1,45 @@
 body{
     font-family: 'Montserrat';
 }
-
-h1 {
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat';
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
-h2{
-    font-family: 'Montserrat';
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 700;
-
-}
-
-h3{
-    font-family: 'Montserrat';
-    font-weight: 700;
 }
 
 p{
     color: #8f8f8f;
 }
 
+
+/* heading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+
+/* title */
 #title{
     color: white;
     background-color: #ff4c68;
+    text-align: left;
 
 }
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
 
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 
 }
 
@@ -63,25 +69,19 @@ p{
 }
 
 
-/* title image */
-.title-image{
-    width: 20%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 20%;
-}
 
-/* feature image */
+/* feature  */
 #features{
     background-color: white;
-    padding: 7% 15%;
     position: relative;
 }
 .feature-box{
     text-align: center;
     padding: 5%;
 }
-
+.feature-title{
+    font-weight: 700;
+}
 .icon{
     color:#ef8172;
     margin-bottom: 1rem;
@@ -103,10 +103,14 @@ p{
     border-radius: 100%;
     margin: 20px;
 
+    
 }
-.carousel-item{
-    padding: 7% 15%;
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
 }
+
 
 #press{
     background-color:  #ef8172;
@@ -129,27 +133,22 @@ p{
     padding: 3% 2%;
 
 }
+.price-tag{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
 
 /* cta section */
 #cta{
     background-color: #ff4c68;
     color: white;
-    padding: 7% 15%;
     text-align: center;
 }
 
-.cta-heading{
-    font-family: 'Montserrat';
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-
-
-}
 
 /* Footer section */
 #footer{
-    padding: 7% 15%;
     text-align: center;
 }
 .social-icon {
